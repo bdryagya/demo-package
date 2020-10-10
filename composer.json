@@ -1,0 +1,19 @@
+{
+    "name": "bdryagya/demo-library",
+    "description": "This is a Demo Library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yagya Chaudhary",
+            "email": "mail@bdryagya.com.np"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "\\Bdryagya\\DemoLibrary\\": "src/"
+      }
+    }
+}
